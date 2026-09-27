@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sin conexión</title>
+        <link rel="stylesheet" href="/css/styles.css" />
+    </head>
+    <body class="grid min-h-screen place-items-center bg-surface px-6 text-center text-ink">
+        <div>
+            <img src="/icons/icon-192.png" alt="" class="mx-auto mb-6 h-20 w-20 rounded-2xl" />
+            <h1 class="text-xl font-bold">Estás sin conexión</h1>
+            <p class="mt-2 max-w-sm text-sm text-slate-500">
+                Esta página todavía no estaba guardada en la caché del service worker.
+            </p>
+            <button onclick="location.reload()" class="btn btn-primary mt-6">Reintentar</button>
+        </div>
+    </body>
+</html>

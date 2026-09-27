@@ -1,0 +1,15 @@
+# Dependencias instaladas por npm (se reconstruyen con `npm install`)
+node_modules/
+
+# Variables de entorno: NUNCA se suben al repo
+.env
+
+# CSS generado por Tailwind (se reconstruye con `npm run build`)
+public/css/styles.css
+
+# Logs y basura del sistema
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
